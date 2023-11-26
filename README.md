@@ -36,28 +36,36 @@ PlethoraAPI 是一个基于个人喜好编写的 Java 实用工具类集合。�
 
 PlethoraAPI is organized into the following modules:
 
-- `plethora-util`: Core utilities for strings, collections, system operations, and more.
-    - `plethora-util`：处理字符串、集合、系统操作等的核心工具类。
-- `plethora-javafx`: Utilities specific to JavaFX applications.
-    - `plethora-javafx`：专用于 JavaFX 应用程序的工具类。
-- `plethora-net`: Tools for network-related tasks.
-    - `plethora-net`：处理与网络相关任务的工具。
-- `plethora-chatgpt`: Integration with OpenAI's ChatGPT.
-    - `plethora-chatgpt`：与 OpenAI 的 ChatGPT 集成。
-- `plethora-time`: Time and thread management utilities.
-    - `plethora-time`：时间和线程管理工具。
-- `plethora-management`: File operation utilities.
-    - `plethora-management`：文件操作工具。
-- `plethora-security`: Security and encryption tools.
-    - `plethora-security`：安全和加密工具。
+- `plethora.util`: Core utilities for strings, collections, system operations, and more. 处理字符串、集合、系统操作等的核心工具类。
+- `plethora.javafx`: Utilities specific to JavaFX applications.专用于 JavaFX 应用程序的工具类。
+- `plethora-net`: Tools for network-related tasks.处理与网络相关任务的工具。
+- `plethora.chatgpt`: Integration with OpenAI's ChatGPT.与 OpenAI 的 ChatGPT 集成。
+- `plethora.time`: Time and thread management utilities.
+- `plethora.management`: File operation utilities.
+- `plethora.security`: Security and encryption tools.
 
-## Getting Started
+## Getting Started 入门指南
 
-To use PlethoraAPI in your project, you can include it as a dependency. Here is an example using Maven:
+要在项目中使用 PlethoraAPI，请按照以下步骤操作。下面是使用 Maven 的示例：
 
+### 步骤 1：克隆项目
+
+将 PlethoraAPI 项目克隆到本地环境。
+
+### 步骤 2：构建项目
+
+使用 Maven 运行以下命令构建项目：
+
+```bash
+mvn install
+```
+
+步骤 3：添加到项目依赖
+将以下 XML 代码片段添加到项目的 Maven 配置文件（pom.xml）中：
 ```xml
 <dependency>
     <groupId>asia.ceroxe</groupId>
     <artifactId>plethora-api</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
 </dependency>
+```

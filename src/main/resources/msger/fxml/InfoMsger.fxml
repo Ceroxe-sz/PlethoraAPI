@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="220.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/17"
-            fx:controller="asia.ceroxe.javafx.msger.InfoMsgerController">
+            fx:controller="plethora.javafx.msger.InfoMsgerController">
     <children>
         <Separator layoutX="10.0" layoutY="95.0" prefHeight="11.0" prefWidth="330.0"/>
         <Label fx:id="UpTextLabel" layoutX="26.0" layoutY="32.0" prefHeight="47.0" prefWidth="90.0" text="信息">
