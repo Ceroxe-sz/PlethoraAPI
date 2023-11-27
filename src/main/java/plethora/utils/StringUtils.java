@@ -1,5 +1,7 @@
 package plethora.utils;
 
+import java.io.PrintWriter;
+import java.io.StringWriter;
 import java.util.Arrays;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -44,5 +46,13 @@ public final class StringUtils {
             }
         }
         return true;
+    }
+
+    public static String getExceptionMsg(Exception e) {
+        StringWriter sw = new StringWriter();
+        PrintWriter pw = new PrintWriter(sw);
+        e.printStackTrace(pw);
+        return sw.toString();
+
     }
 }
